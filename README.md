@@ -5,6 +5,13 @@ CL-ASTRODICT
 
 这段脚本属于公有领域。
 
+已经转换好的文件
+----------------
+
+似乎原版许可证没有禁止二次发布？
+
+[点这里下载](https://github.com/leosongwei/cl-astrodict/releases/download/r160626/astrodict_ec_ce.tar.gz)
+
 使用
 ----
 
@@ -13,6 +20,8 @@ CL-ASTRODICT
 3. [点这里下载安装SBCL（Steel Bank Common Lisp）](http://www.sbcl.org/)
 4. 在控制台内，`cl-astrodict.lisp`所在的文件夹
 5. 执行`sbcl --load cl-astrodict.lisp`
+
+仅在Linux中测试过，苹果的系统应该能用，Windows不明，理论上SBCL能够运行的系统都能运行吧。
 
 源文件Readme
 ------------
